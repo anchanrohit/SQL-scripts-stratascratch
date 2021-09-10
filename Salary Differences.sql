@@ -1,4 +1,4 @@
-Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the difference in salaries.
+--Write a query that calculates the difference between the highest salaries found in the marketing and engineering departments. Output just the difference in salaries.
 
 select 
 (select max(e.salary) 
